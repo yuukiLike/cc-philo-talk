@@ -1,0 +1,29 @@
+{
+  "name": "cc-philo-talk",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "dev:fe": "vite",
+    "build:fe": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.18",
+    "@tauri-apps/cli": "^2.10.0",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "tailwindcss": "4.1.18",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.1",
+    "vue-tsc": "^3.2.4"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.10.1",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.27",
+    "vue-router": "^5.0.2"
+  }
+}
